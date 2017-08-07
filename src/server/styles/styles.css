@@ -1,0 +1,16 @@
+.root {
+    -fx-padding: 10pt;
+    -fx-background-color: gray;
+}
+
+#button-anchorpane {
+    /*-fx-padding: 10pt 0pt;*/
+}
+
+.listview {
+    -fx-background-color: lightgrey;
+}
+
+.start-server-button {
+    -fx-alignment: baseline-right;
+}

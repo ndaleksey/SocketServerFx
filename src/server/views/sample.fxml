@@ -1,0 +1,19 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<VBox fx:controller="server.controllers.Controller"
+        xmlns:fx="http://javafx.com/fxml"
+        stylesheets="@../styles/styles.css">
+    <AnchorPane id="button-anchorpane">
+        <Button fx:id="startServerButton"
+                styleClass="start-server-button"
+                text="Старт" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="10">
+        </Button>
+    </AnchorPane>
+    <ListView fx:id="logsListView"/>
+</VBox>
